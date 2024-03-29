@@ -1,6 +1,3 @@
-//single selection
-//multiple selection
-
 import { useState } from "react";
 import data from "./data";
 import "./styles.css";
@@ -29,7 +26,7 @@ export default function Accordian() {
   return (
     <div className="acc-wrapper">
       <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>
-        Enable Multi Selection
+        ENABLE MULTI SELECTION
       </button>
       <div className="accordian">
         {data && data.length > 0 ? (
